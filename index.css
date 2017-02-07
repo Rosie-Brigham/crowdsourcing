@@ -1,3 +1,10 @@
 main {
   text-align: center;
 }
+
+.jumbotron {
+  height: 100vh;
+  background: url(assets/images/background.png);
+  background-size: cover;
+
+}
