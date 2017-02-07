@@ -11,6 +11,8 @@ class App extends Component {
       <div >
         <Jumbotron>
           <h1>Crowdsource Conservation</h1>
+          <img src='assets/images/butterfly-2.gif' />
+          <span><img className="me" src='assets/images/me.png'/></span>
         </Jumbotron>
 
         <Grid>
