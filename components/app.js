@@ -4,6 +4,7 @@ import { Grid, Row, Jumbotron, Col } from 'react-bootstrap';
 // for ze butterfly...
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
+import Butterfly from './butterfly.js'
 class App extends Component {
 
   constructor (props) {
@@ -15,14 +16,9 @@ class App extends Component {
       <div >
         <Jumbotron>
           <h1>Crowdsource <br/>Conservation</h1>
-
-
-
-            <img className='butterfly' src='assets/images/butterfly-2.gif' />
-
-
-
-
+            <Butterfly butterflyName={'butterfly'}/>
+            <Butterfly butterflyName={'butterflyTwo'}/>
+            <Butterfly butterflyName={'butterflyThree'}/>
           <span><img className="me" src='assets/images/me.png'/></span>
         </Jumbotron>
 

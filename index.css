@@ -1,5 +1,6 @@
 main {
   text-align: center;
+  font-family: 'EB Garamond', serif;
 }
 
 .jumbotron {
@@ -20,16 +21,16 @@ main {
   width: 50px;
 }
 
-@-webkit-keyframes move
+/*@-webkit-keyframes move
 {
   from {
     right: 0;
   }
   to {
     right: 50%;
-  }
+  }*/
 }
-
+/*
 @keyframes move
 {
   0% {
@@ -52,7 +53,7 @@ main {
     top: 2%;
     right: 100%;
   }
-}
+}*/
 
 
 .butterfly {
