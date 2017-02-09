@@ -15,3 +15,61 @@ main {
   bottom: 0px;
   right: 0px;
 }
+
+.butterfly {
+  width: 50px;
+}
+
+@-webkit-keyframes move
+{
+  from {
+    right: 0;
+  }
+  to {
+    right: 50%;
+  }
+}
+
+@keyframes move
+{
+  0% {
+    top: 25%;
+    right: 0;
+  }
+  10% {
+    top: 20%;
+  }
+  20% {
+    top: 17%;
+  }
+  40% {
+    top: 12%;
+  }
+  65% {
+    top: 5%;
+  }
+  100% {
+    top: 2%;
+    right: 100%;
+  }
+}
+
+
+.butterfly {
+  padding-right: 20px;
+  right: 50%;
+  position: absolute;
+  -webkit-animation: move 8s;
+  animation: move 8s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.butterfly {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  border-radius:60px;
+  transition-duration: 1s;
+}

@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
 import { Grid, Row, Jumbotron, Col } from 'react-bootstrap';
+
+// for ze butterfly...
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
+
 class App extends Component {
 
   constructor (props) {
@@ -10,8 +14,15 @@ class App extends Component {
     return (
       <div >
         <Jumbotron>
-          <h1>Crowdsource Conservation</h1>
-          <img src='assets/images/butterfly-2.gif' />
+          <h1>Crowdsource <br/>Conservation</h1>
+
+
+
+            <img className='butterfly' src='assets/images/butterfly-2.gif' />
+
+
+
+
           <span><img className="me" src='assets/images/me.png'/></span>
         </Jumbotron>
 
