@@ -1,0 +1,131 @@
+
+.butterfly {
+  width: 50px;
+}
+
+.butterflyTwo {
+  width: 35px;
+}
+
+.butterflyThree {
+  width: 30px;
+}
+
+@-webkit-keyframes move
+{
+  from {
+    right: 0;
+  }
+  to {
+    right: 50%;
+  }
+}
+
+@keyframes move
+{
+  0% {
+    top: 25%;
+    right: -100px;
+  }
+  10% {
+    top: 20%;
+  }
+  20% {
+    top: 17%;
+  }
+  40% {
+    top: 12%;
+  }
+  65% {
+    top: 5%;
+  }
+  100% {
+    top: 2%;
+    right: 100%;
+  }
+}
+
+@keyframes movetwo
+{
+  0% {
+    right: -50px;
+  }
+  10% {
+    top: 5%;
+  }
+  20% {
+    top: 7%;
+  }
+  40% {
+    top: 2%;
+  }
+  65% {
+    top: 10%;
+  }
+  80% {
+    top: 15%;
+  }
+  100% {
+    top: 22%;
+    right: 100%;
+  }
+}
+
+@keyframes movethree
+{
+  0% {
+    top: 35%;
+    right: -100px;
+  }
+  10% {
+    top: 30%;
+  }
+  20% {
+    top: 25%;
+  }
+  40% {
+    top: 22%;
+  }
+  65% {
+    top: 0%;
+  }
+  100% {
+    top: 0%;
+    right: 100%;
+  }
+}
+
+.butterfly {
+  -webkit-animation: move 8s;
+  animation: move 8s;
+}
+
+.butterflyTwo {
+  top: 5%;
+  -webkit-animation: move 8s;
+  animation: movetwo 10s;
+}
+
+.butterflyThree {
+  top: 35%;
+  -webkit-animation: move 8s;
+  animation: movethree 7s;
+}
+
+.butterfly, .butterflyTwo, .butterflyThree {
+  right: -100px;
+  position: absolute;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.butterfly, .butterflyTwo, .butterflyThree {
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -o-transition: all 1s linear;
+  -ms-transition: all 1s linear;
+  border-radius:60px;
+  transition-duration: 1s;
+}
+
+/*butterfly two*/
