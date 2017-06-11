@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <div >
         <Jumbotron>
-          <h1>Crowdsource <br/>Conservation</h1>
+          <h1>Monumental</h1>
             <Butterfly butterflyName={'butterfly'}/>
             <Butterfly butterflyName={'butterflyTwo'}/>
             <Butterfly butterflyName={'butterflyThree'}/>
