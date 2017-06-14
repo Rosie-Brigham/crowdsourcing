@@ -153,7 +153,44 @@ h1, h2 {
 
 .row.about {
   font-size: 1.2em;
-  padding: 5%;
+  padding: 8%;
+  padding-top: 30px;
   text-align: left;
   background-color: #8db4d7;
+}
+div.machrie .col-xs-12 {
+  padding: 0;
+}
+
+#machrie img {
+  width: 100%;
+}
+
+#machrie .machrie-text h2 {
+  margin-bottom: 30px;
+}
+
+#machrie .machrie-text {
+  padding: 5%;
+}
+
+div.holyrood .col-xs-12 {
+  padding: 0;
+}
+
+#holyrood img {
+  width: 100%;
+}
+
+#holyrood .holyrood-text h2 {
+  margin-bottom: 30px;
+}
+
+
+#holyrood .holyrood-text p {
+  font-size: 1.2em;
+}
+#holyrood .holyrood-text {
+  padding: 5%;
+
 }

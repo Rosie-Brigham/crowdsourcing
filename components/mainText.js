@@ -43,7 +43,7 @@ class MainText extends Component {
                 <h2><a href="#" className="about" onClick={handleClick}>About the project</a></h2>
               </div>
             </Col>
-            <Col xs={12} md={4}>
+            <Col xs={12} md={4} id="no-padding">
               <div className='link'>
                 <h2><a href="#" className="machrie" onClick={handleClick}>Machrie Moor site</a></h2>
               </div>
