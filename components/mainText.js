@@ -23,10 +23,10 @@ class MainText extends Component {
 
     return (
       <Grid>
-        <Row className="show-grid intro">
-          <Col xs={12} md={12}>
-            <h1>Welcome to Monumental Conservation</h1>
-            <div>
+        <div className="intro">
+          <Row className="show-grid">
+            <Col xs={12} md={12}>
+              <h1>Welcome to Monumental Conservation</h1>
               <p>
                 Monumental conservation is a research project which is analysing
                 the feasibility of monitoring heritage sites using images from
@@ -34,31 +34,40 @@ class MainText extends Component {
                 in Scotland: Holyroodhouse Palace in Edinburgh and Machire Moor on the
                 Isle of Arran.
               </p>
+            </Col>
+          </Row>
 
-              <p className='link'>
+          <Row className="show-grid">
+            <Col xs={12} md={4}>
+              <div className='link'>
                 <h2><a href="#" className="about" onClick={handleClick}>About the project</a></h2>
-              </p>
-              <p className='link'>
+              </div>
+            </Col>
+            <Col xs={12} md={4}>
+              <div className='link'>
                 <h2><a href="#" className="machrie" onClick={handleClick}>Machrie Moor site</a></h2>
-              </p>
-              <p className='link'>
+              </div>
+            </Col>
+            <Col xs={12} md={4}>
+              <div className='link'>
                 <h2><a href="#" className="holyrood" onClick={handleClick}>Holyroodhouse Palace site</a></h2>
-              </p>
-            </div>
-          </Col>
-        </Row>
-        <Row className="show-grid intro">
+              </div>
+            </Col>
+          </Row>
+        </div>
+
+        <Row className="show-grid about">
           <Col xs={12} md={12}>
             <About />
           </Col>
         </Row>
-        <Row className="show-grid intro">
+        <Row className="show-grid machrie">
           <Col xs={12} md={12}>
           <Machrie />
           </Col>
         </Row>
 
-        <Row className="show-grid intro">
+        <Row className="show-grid holyrood">
           <Col xs={12} md={12}>
           <Holyrood />
           </Col>
