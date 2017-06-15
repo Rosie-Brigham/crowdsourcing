@@ -22,6 +22,7 @@ class MainText extends Component {
 
 
     return (
+      <section>
       <Grid>
         <div className="intro">
           <Row className="show-grid">
@@ -55,24 +56,18 @@ class MainText extends Component {
             </Col>
           </Row>
         </div>
+      </Grid>
 
-        <Row className="show-grid about">
-          <Col xs={12} md={12}>
-            <About />
-          </Col>
-        </Row>
-        <Row className="show-grid machrie">
-          <Col xs={12} md={12}>
-          <Machrie />
-          </Col>
-        </Row>
+      <About />
+
+      <Machrie />
 
         <Row className="show-grid holyrood">
           <Col xs={12} md={12}>
           <Holyrood />
           </Col>
         </Row>
-      </Grid>
+      </section>
       )
   }
 }

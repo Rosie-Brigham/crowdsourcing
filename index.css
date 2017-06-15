@@ -8,7 +8,7 @@ h1, h2 {
   font-family: 'Fredericka the Great', cursive;
 }
 
-.jumbotron {
+.intro-jumbotron {
   height: 100vh;
   -webkit-height: 100vh;
   -moz-height: 100vh;
@@ -19,7 +19,7 @@ h1, h2 {
   background-color: rgb(234, 245, 255)
 }
 
-.jumbotron h1 {
+.intro-jumbotron h1 {
   font-size: 7em;
   text-align: center;
   animation: fadein 2s;
@@ -29,7 +29,7 @@ h1, h2 {
 }
 
 @media only screen and (max-width: 600px) {
-  .jumbotron {
+  .intro-jumbotron {
     background-image: url("assets/images/me.png"), url("assets/images/machrie_portrait.jpg");
     background-position: bottom right, center;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ h1, h2 {
     margin: 0;
   }
 
-  .jumbotron .landing-content {
+  .intro-jumbotron .landing-content {
     margin: auto;
     padding: 50% 0;
     background: rgba(206, 228, 234, 0.77);
@@ -55,7 +55,7 @@ h1, h2 {
     background: -moz-linear-gradient(rgba(78, 108, 111, 0), rgba(206, 228, 234, 0.85), rgba(78, 108, 111, 0));
   }
 
-  .jumbotron h1 {
+  .intro-jumbotron h1 {
     margin: 20% auto;
     font-size: 3em;
   }
@@ -105,7 +105,7 @@ h1, h2 {
 
 @media only screen and (max-width: 600px) {
   .me {
-    width: 80%;
+    display: none;
   }
 }
 
@@ -130,10 +130,9 @@ h1, h2 {
   transition-duration: 1s;
 }
 
-
 /* boring text and stuff */
 .intro {
-  height: 100vh;
+  height: 350px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -168,13 +167,27 @@ h1, h2 {
   color: #455840;
 }
 
+.jumbotron.about {
+  background-color: #8db4d7;
+  margin: 0;
+}
+
 .row.about {
   font-size: 1em;
   padding: 8%;
   padding-top: 30px;
   text-align: left;
-  background-color: #8db4d7;
 }
+
+@media only screen and (max-width: 600px) {
+  .about.jumbotron {
+    padding: 0;
+  }
+  .row.about p {
+    font-size: 1em;
+  }
+}
+
 div.machrie .col-xs-12 {
   padding: 0;
 }
@@ -189,6 +202,10 @@ div.machrie .col-xs-12 {
 
 #machrie .machrie-text {
   padding: 5%;
+}
+.machrie-text p {
+  font-size: 1.5em;
+  text-align: left;
 }
 
 div.holyrood .col-xs-12 {
@@ -207,7 +224,7 @@ div.holyrood .col-xs-12 {
 #holyrood .holyrood-text p {
   font-size: 1.2em;
 }
+
 #holyrood .holyrood-text {
   padding: 5%;
-
 }

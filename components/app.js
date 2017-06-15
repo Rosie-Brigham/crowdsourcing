@@ -14,12 +14,13 @@ class App extends Component {
   render () {
     return (
       <div >
-        <Jumbotron>
+        <Jumbotron className="intro-jumbotron">
           <div className="landing-content">
             <h1>Monumental</h1>
             <Butterfly butterflyName={'butterfly'}/>
             <Butterfly butterflyName={'butterflyTwo'}/>
             <Butterfly butterflyName={'butterflyThree'}/>
+            <span><img className="me only-desktop" src='assets/images/me.png'/></span>
           </div>
         </Jumbotron>
 
