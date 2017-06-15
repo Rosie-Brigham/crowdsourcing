@@ -26,10 +26,10 @@ class MainText extends Component {
       <Grid>
         <div className="intro">
           <Row className="show-grid">
-            <Col xs={12} md={12}>
+            <Col xs={12} md={12} id="welcome">
               <h1>Welcome to Monumental Conservation</h1>
               <p>
-                Monumental conservation is a research project which is analysing
+                Monumental Conservation is a research project which is analysing
                 the feasibility of monitoring heritage sites using images from
                 visitors. Initially this project is being trialed at two sites
                 in Scotland: Holyroodhouse Palace in Edinburgh and Machire Moor on the
@@ -50,7 +50,7 @@ class MainText extends Component {
               </div>
             </Col>
             <Col xs={12} md={4}>
-              <div className='link'>
+              <div className='link last-link'>
                 <h2><a href="#" className="holyrood" onClick={handleClick}>Holyroodhouse Palace site</a></h2>
               </div>
             </Col>
@@ -58,15 +58,11 @@ class MainText extends Component {
         </div>
       </Grid>
 
-      <About />
+      <About scroll={handleClick}/>
+
+      <Holyrood />
 
       <Machrie />
-
-        <Row className="show-grid holyrood">
-          <Col xs={12} md={12}>
-          <Holyrood />
-          </Col>
-        </Row>
       </section>
       )
   }
