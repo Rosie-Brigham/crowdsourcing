@@ -26,11 +26,17 @@ h1, h2 {
 
 @media only screen and (max-width: 600px) {
   .jumbotron {
-    background: url(assets/images/leaves2.png) no-repeat right top, url(assets/images/background_portrait.png) no-repeat left center;
-    background-color:#d5e094;
+    background: url(assets/images/background_portrait.png) no-repeat left center;
+    background-color: #d5e094;
+    -webkit-background-size: 100vw auto, 150vw auto;
+    -moz-background-size: 100vw auto, 150vw auto;
+    -o-background-size: 100vw auto, 150vw auto;
     background-size: 100vw auto, 150vw auto;
+    /*background-size: 100vw auto, 150vw auto;*/
     background-attachment: fixed;
-    min-height: 100vh;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
   }
 
   .jumbotron .landing-content {
@@ -85,7 +91,7 @@ h1, h2 {
 .me {
   position: absolute;
   width: 35%;
-  bottom: 0px;
+  bottom: 0vh;
   right: 0px;
 }
 
