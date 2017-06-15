@@ -140,6 +140,9 @@ h1, h2 {
   .intro, .about, .machrie, .holyrood {
     min-height: 100vh;
   }
+  .intro {
+    height: initial;
+  }
 }
 
 .intro h1 {
@@ -166,7 +169,7 @@ h1, h2 {
 }
 
 .row.about {
-  font-size: 1.2em;
+  font-size: 1em;
   padding: 8%;
   padding-top: 30px;
   text-align: left;
