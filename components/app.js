@@ -20,7 +20,6 @@ class App extends Component {
             <Butterfly butterflyName={'butterfly'}/>
             <Butterfly butterflyName={'butterflyTwo'}/>
             <Butterfly butterflyName={'butterflyThree'}/>
-            <span><img className="me" src='assets/images/me.png'/></span>
           </div>
         </Jumbotron>
 

@@ -10,6 +10,10 @@ h1, h2 {
 
 .jumbotron {
   height: 100vh;
+  -webkit-height: 100vh;
+  -moz-height: 100vh;
+  -ms-height: 100vh;
+  -o-height: 100vh;
   background: url(assets/images/background.png);
   background-size: cover;
   background-color: rgb(234, 245, 255)
@@ -26,15 +30,18 @@ h1, h2 {
 
 @media only screen and (max-width: 600px) {
   .jumbotron {
-    background: url(assets/images/background_portrait.png) no-repeat left center;
-    background-color: #d5e094;
-    -webkit-background-size: 100vw auto, 150vw auto;
-    -moz-background-size: 100vw auto, 150vw auto;
-    -o-background-size: 100vw auto, 150vw auto;
-    background-size: 100vw auto, 150vw auto;
-    /*background-size: 100vw auto, 150vw auto;*/
-    background-attachment: fixed;
+    background-image: url("assets/images/me.png"), url("assets/images/machrie_portrait.jpg");
+    background-position: bottom right, center;
+    background-repeat: no-repeat;
+    background-color: rgb(206, 228, 234);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100vw auto, 100vh auto;
+    /*background-attachment: fixed;*/
     height: 100vh;
+    /*height: -webkit-calc(100% - 0px)*/
     padding: 0;
     margin: 0;
   }
@@ -42,15 +49,15 @@ h1, h2 {
   .jumbotron .landing-content {
     margin: auto;
     padding: 50% 0;
-    background: rgba(83, 111, 78, 0.45);
-    background: linear-gradient(rgba(83, 111, 78,0), rgba(83, 111, 78, 0.44), rgba(83, 111, 78,0));
-    background: -webkit-linear-gradient(rgba(83, 111, 78,0), rgba(83, 111, 78, 0.44), rgba(83, 111, 78,0));
-    background: -moz-linear-gradient(rgba(83, 111, 78,0), rgba(83, 111, 78, 0.44), rgba(83, 111, 78,0));
+    background: rgba(206, 228, 234, 0.77);
+    background: linear-gradient(rgba(78, 108, 111, 0), rgba(206, 228, 234, 0.85), rgba(78, 108, 111, 0));
+    background: -webkit-linear-gradient(rgba(78, 108, 111, 0), rgba(206, 228, 234, 0.85), rgba(78, 108, 111, 0));
+    background: -moz-linear-gradient(rgba(78, 108, 111, 0), rgba(206, 228, 234, 0.85), rgba(78, 108, 111, 0));
   }
 
   .jumbotron h1 {
     margin: 20% auto;
-    font-size: 4em;
+    font-size: 3em;
   }
 }
 
@@ -91,8 +98,9 @@ h1, h2 {
 .me {
   position: absolute;
   width: 35%;
-  bottom: 0vh;
+  bottom: 0px;
   right: 0px;
+  background: url('assets/image/me.png')
 }
 
 @media only screen and (max-width: 600px) {
