@@ -37,7 +37,7 @@ p {
   -moz-height: 100vh;
   -ms-height: 100vh;
   -o-height: 100vh;
-  background: url(assets/images/background.png);
+  background: url(assets/images/background_fountain.png);
   background-size: cover;
   background-color: rgb(234, 245, 255)
 }

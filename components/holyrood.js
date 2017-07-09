@@ -17,7 +17,7 @@ class Holyrood extends Component {
 
     return (
         <div id="holyrood">
-          <img src="../assets/images/holyrood.jpg"/>
+          <img src="../assets/images/holyrood_landscape.jpg"/>
           <Grid>
             <Row className="show-grid holyrood">
               <Col xs={12} md={12}>
