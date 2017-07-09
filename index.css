@@ -249,3 +249,8 @@ div.holyrood .col-xs-12 {
 #holyrood .holyrood-text {
   padding: 5%;
 }
+
+iframe.twitter-timeline {
+  margin: 0 auto !important;
+  width: 100% !important;
+}

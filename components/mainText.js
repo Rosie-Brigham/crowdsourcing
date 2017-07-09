@@ -3,6 +3,7 @@ import { Grid, Row, Jumbotron, Col } from 'react-bootstrap';
 import About from './about.js'
 import Holyrood from './holyrood.js'
 import Machrie from './machrie.js'
+import Twitter from './twitter.js'
 var scrollToElement = require('scroll-to-element');
 
 class MainText extends Component {
@@ -60,7 +61,7 @@ class MainText extends Component {
           <Row className="show-grid">
             <Col xs={12} md={4}>
               <div className='link'>
-                <h2><a href="#" className="about" onClick={handleClick}>About the project</a></h2>
+                <h2><a href="#" className="about" onClick={handleClick}>Find out more</a></h2>
               </div>
             </Col>
             <Col xs={12} md={4} id="no-padding">
@@ -82,6 +83,9 @@ class MainText extends Component {
       <Holyrood />
 
       <Machrie />
+
+      <Twitter />
+
       </section>
       )
   }
