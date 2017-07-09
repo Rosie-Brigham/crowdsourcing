@@ -29,10 +29,29 @@ class MainText extends Component {
             <Col xs={12} md={12} id="welcome">
               <h1>Welcome to Monumental Conservation</h1>
               <p>
-                Monumental Conservation is a research project which is analysing
-                the feasibility of monitoring heritage sites using images from
-                visitors. Initially this project is being trialed at two sites
-                in Scotland: Holyroodhouse Palace in Edinburgh and Machire Moor on the
+                <strong>
+                Monumental Conservation is a research project which to establish whether
+                images taken by visitors to heritage sites can be of a quality that is useful
+                for heritage institutions.
+                </strong>
+              </p>
+              <p>
+                Together with the Institute of Sustainable Heritage at University College London (UCL)
+                Historic Environments Scotland has set up an innovative project to crowdsource conservation.
+
+                HES manages over 300 different sites all over Scotland, ranging from fountains in the
+                middle of the city to ancient cairns in the depths of the highlands.
+                Closely monitoring these sites is logistically very challenging.
+              </p>
+              <p>
+                This research will establish whether images taken by visitors
+                can be of a quality that is useful for heritage institutions for conservation purposes.
+                It will attempt to establish what analytical data can be collected by smartphone cameras.
+                This will provide valuable insight into how long term conservation crowdsourcing of heritage sites
+                can be developed.
+              </p>
+              <p>
+                Initially this project is being trialed at two sites: Holyroodhouse Palace in Edinburgh and Machire Moor on the
                 Isle of Arran.
               </p>
             </Col>
