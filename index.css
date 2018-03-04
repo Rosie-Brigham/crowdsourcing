@@ -10,6 +10,9 @@ h1, h2 {
 
 .jumbotron {
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: url(assets/images/background.png);
   background-size: cover;
   background-color: rgb(234, 245, 255)
@@ -119,7 +122,7 @@ h1, h2 {
 
 /* boring text and stuff */
 .intro {
-  height: 100vh;
+  height: 100%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -188,9 +191,8 @@ div.holyrood .col-xs-12 {
 
 
 #holyrood .holyrood-text p {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 #holyrood .holyrood-text {
   padding: 5%;
-
 }

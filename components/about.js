@@ -15,7 +15,7 @@ class About extends Component {
           <p>
             Heritage organizations often have a myriad of sites to protect, maintain and conserve.
             These can vary in type, size and location which makes it difficult
-            to consistently monitor them. A majority of outdoor heritage sites don’t have the luxury of regular visits from professional conservators yet they are visited daily by hundreds of tourists. This project aims to evaluate whether crowdsourcing tourist photos can be used by conservators to monitor valuable heritage.
+            to consistently monitor them.
           </p>
           <p>
 

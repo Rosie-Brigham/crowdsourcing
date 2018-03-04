@@ -16,7 +16,7 @@ class App extends Component {
       <div >
         <Jumbotron>
           <div className="landing-content">
-            <h1>Monumental</h1>
+            <h1>Monumental <br/>Conservation</h1>
             <Butterfly butterflyName={'butterfly'}/>
             <Butterfly butterflyName={'butterflyTwo'}/>
             <Butterfly butterflyName={'butterflyThree'}/>
