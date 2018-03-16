@@ -155,7 +155,7 @@ p {
 
 /* boring text and stuff */
 .intro {
-  height: 350px;
+  height: 100%;
 }
 
 @media only screen and (max-width: 600px) {
