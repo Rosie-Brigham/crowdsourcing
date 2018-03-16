@@ -124,6 +124,9 @@ h1, h2 {
 .intro {
   height: 100%;
 }
+.fixed-height {
+  height: 600px;
+}
 
 @media only screen and (max-width: 600px) {
   .intro, .about, .machrie, .holyrood {
