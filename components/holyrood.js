@@ -26,7 +26,8 @@ class Holyrood extends Component {
                   <p>
                      Holyrood Palace has served as the principal residence of the
                      Kings and Queens of Scots since the 16th century, and is a setting
-                     for state occasions and official entertaining.
+                     for state occasions and official entertaining.Her Majesty The Queen still visits
+                     once a year for the annual garden party.
                   </p>
                   <p>
                     The fountain is one of the first things visitors see when walking into the palace courtyard.

@@ -15,7 +15,6 @@ class Twitter extends Component {
     }
     return (
       <div id="machrie">
-        <img src="../assets/images/machrie.JPG"/>
         <Grid>
           <Row className="show-grid machrie">
             <Col xs={12} md={12}>
