@@ -1,3 +1,17 @@
+* {
+  background-color: #000000;
+}
+
+div.holding {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 100vw;
+}
+
 main {
   text-align: center;
   /*font-family: 'EB Garamond', serif;*/
