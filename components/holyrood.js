@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Grid, Row, Jumbotron, Col } from 'react-bootstrap';
 
 class Holyrood extends Component {
 
@@ -6,7 +7,14 @@ class Holyrood extends Component {
     super(props)
   }
 
+
   render () {
+    function handleClick(e) {
+      e.preventDefault();
+      var scrollToElement = require('scroll-to-element');
+      scrollToElement('#welcome');
+    }
+
     return (
         <div id="holyrood">
           <img src="../assets/images/fountain_updated.jpg"/>
